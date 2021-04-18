@@ -4,7 +4,7 @@ namespace App\Players;
 
 use App\Config;
 
-abstract class Brute extends Player{
+class Brute extends Player{
 
 
 	//Settings for Brute Player

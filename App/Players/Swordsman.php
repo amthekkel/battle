@@ -4,7 +4,7 @@ namespace App\Players;
 
 use App\Config;
 
-abstract class Swordsman extends Player{
+class Swordsman extends Player{
 
 
 	//Settings for Swordsman Player

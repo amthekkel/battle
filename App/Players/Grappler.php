@@ -4,7 +4,7 @@ namespace App\Players;
 
 use App\Config;
 
-abstract class Grappler extends Player{
+class Grappler extends Player{
 
 
 	//Settings for Grappler Player

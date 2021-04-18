@@ -4,7 +4,7 @@ namespace App\Players;
 
 use App\Config;
 
-abstract class Brute{
+abstract class Player{
 
 
 	//Player properties 
@@ -57,9 +57,9 @@ abstract class Brute{
 	//Decimal, 0 to 1
 	protected float $luck;
 
-	protected int $min_luck_allowed;
+	protected float $min_luck_allowed;
 
-	protected int $max_luck_allowed;
+	protected float $max_luck_allowed;
 
 
 
