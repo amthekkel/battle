@@ -1,0 +1,9 @@
+{
+	"editor.rulers": [
+		120
+	],
+	"editor.wordWrap": "wordWrapColumn",
+	"editor.wordWrapColumn": 120,
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": false
+}
