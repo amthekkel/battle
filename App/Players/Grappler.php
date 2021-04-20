@@ -1,34 +1,47 @@
 <?php
+declare(strict_types=1);
 
 namespace App\Players;
 
 use App\Config;
 
-class Grappler extends Player{
+class Grappler extends Player
+{
 
 
-	//Settings for Grappler Player
+    //Settings for Grappler Player
 
-	protected $type = 'Grappler';
-	
-	protected int $min_health_allowed = 60;
+    protected $type = 'Grappler';
+    
+    protected int $min_health_allowed = 60;
 
-	protected int $max_health_allowed = 100;
+    protected int $max_health_allowed = 100;
 
-	protected int $min_strength_allowed = 75;
+    protected int $min_strength_allowed = 75;
 
-	protected int $max_strength_allowed = 80;
+    protected int $max_strength_allowed = 80;
 
-	protected int $min_defence_allowed = 35;
+    protected int $min_defence_allowed = 35;
 
-	protected int $max_defence_allowed = 40;
+    protected int $max_defence_allowed = 40;
 
-	protected int $min_speed_allowed = 60;
+    protected int $min_speed_allowed = 60;
 
-	protected int $max_speed_allowed = 80;
+    protected int $max_speed_allowed = 80;
 
-	protected float $min_luck_allowed = 0.3;
+    protected float $min_luck_allowed = 0.3;
 
-	protected float $max_luck_allowed  = 0.4;
+    protected float $max_luck_allowed  = 0.4;
+    
+    //protected array $skills  = [Config::SKILL_COUNTER_ATTACK => Config::COUNTER_ATTACK_PROBABILITY];
 
+    protected array $skills;
+
+
+
+    protected function set_skills()
+    {
+
+        $this->skills = [Config::SKILL_COUNTER_ATTACK => Config::COUNTER_ATTACK_PROBABILITY];
+    }
 }
