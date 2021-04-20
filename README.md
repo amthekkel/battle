@@ -16,6 +16,10 @@ This is a command line based application.
 
 ## Running tests
 
+## Running the application
+
+`php main.php`
+
 #### From the root folder run the following command
 
 `./vendor/bin/phpunit tests`
