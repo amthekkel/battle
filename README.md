@@ -2,13 +2,20 @@
 
 This is a command line based application.
 
-## Requirement 
- `php 5.6 or greater`
+## Requirement
 
- `composer`
+`php 7 or greater`
 
-## Installation 
+`composer`
 
- `composer install` 
+## Installation
 
- `composer dump-autoload`
+`composer install`
+
+`composer dump-autoload`
+
+## Running tests
+
+#### From the root folder run the following command
+
+`./vendor/bin/phpunit tests`
